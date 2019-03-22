@@ -102,13 +102,13 @@ function createNewProduct() {
                             displayForSale();
                             promptManager();
                         })
-                   
+                        
 
                 })
             })
         })
     })
-};
+} 
 
 var promptManager = function (response) {
     inquirer.prompt([{
